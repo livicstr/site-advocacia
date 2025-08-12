@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Conhecimentos Gerais sobre Advocacia</title>
+  <meta name="description" content="Site educacional com conteúdos sobre advocacia: conceitos, áreas, processo, ética, carreira e modelos práticos." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Advoca+ — Conhecimentos Jurídicos</h1>
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#conceitos">Conceitos</a></li>
+          <li><a href="#areas">Áreas do Direito</a></li>
+          <li><a href="#processo">Processo & Procedimentos</a></li>
+          <li><a href="#etica">Ética & Deontologia</a></li>
+          <li><a href="#carreira">Carreira</a></li>
+          <li><a href="#modelos">Modelos & Peças</a></li>
+          <li><a href="#glossario">Glossário</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="tools">
+        <input id="searchInput" class="search" placeholder="Buscar tópico..." aria-label="Buscar tópico" />
+        <button id="themeToggle" class="btn small">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero container">
+      <div class="hero-text">
+        <h2>Bem-vindo(a) ao guia completo de advocacia</h2>
+        <p>Conteúdo introdutório e avançado para estudantes de direito, estagiários, recém-formados, advogados em início de carreira e leigos interessados em entender o sistema jurídico.</p>
+        <div class="hero-cta">
+          <a href="#conceitos" class="btn">Começar</a>
+          <a href="#modelos" class="btn outline">Modelos práticos</a>
+        </div>
+      </div>
+      <div class="hero-aside" aria-hidden="true">
+        <svg viewBox="0 0 600 400"><rect width="600" height="400" rx="12" fill="#f3f6fb"></rect></svg>
+      </div>
+    </section>
+
+    <div class="container main-grid">
+      <aside class="toc" id="toc" aria-label="Índice da página">
+        <h3>Índice</h3>
+        <nav>
+          <ul id="tocList">
+            <!-- preenchido por script -->
+          </ul>
+        </nav>
+        <small class="disclaimer">Conteúdo informativo. <strong>Não é consultoria jurídica.</strong></small>
+      </aside>
+
+      <article class="content">
+        <!-- Conceitos -->
+        <section id="conceitos" class="card">
+          <h2>1. Conceitos fundamentais do Direito</h2>
+          <p>Breve resumo: o Direito é um conjunto de normas que regulamenta a convivência social e as relações entre pessoas, empresas e Estado. Seguem conceitos essenciais:</p>
+          <ul class="topic-list">
+            <li><strong>Norma jurídica</strong> — regra que impõe deveres e confere direitos; possui sanção.</li>
+            <li><strong>Legalidade</strong> — princípio segundo o qual ninguém é obrigado a fazer ou deixar de fazer senão em virtude de lei.</li>
+            <li><strong>Jurisdição</strong> — atividade do Estado para dizer o direito em controvérsias (função jurisdicional).</li>
+            <li><strong>Processo</strong> — meio institucionalizado para realização da jurisdição.</li>
+            <li><strong>Atos jurídicos</strong> — manifestações de vontade com efeitos no mundo jurídico (ex.: contratos, testamentos).</li>
+            <li><strong>Prescrição e decadência</strong> — perda de direito de ação por decurso de prazo (conceitos distintos).</li>
+          </ul>
+
+          <h4>Fontes do Direito</h4>
+          <p>Primárias: Constituição, leis, tratados internacionais, súmulas vinculantes (em alguns sistemas), decisões judiciais (jurisprudência). Secundárias: costumes, princípios gerais do direito, doutrina.</p>
+        </section>
+
+        <!-- Áreas -->
+        <section id="areas" class="card">
+          <h2>2. Principais áreas do Direito</h2>
+          <p>Resumo das áreas e foco prático.</p>
+          <div class="grid-areas">
+            <article>
+              <h3>Direito Civil</h3>
+              <p>Trata de pessoas, família, contratos, responsabilidade civil, bens e sucessões.</p>
+              <ul>
+                <li>Contratos</li><li>Responsabilidade Civil</li><li>Direitos Reais</li><li>Sucessões</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Direito Penal</h3>
+              <p>Regula crimes e punições; inclui processo penal, medidas cautelares e execução penal.</p>
+            </article>
+            <article>
+              <h3>Direito Trabalhista / Previdenciário</h3>
+              <p>Relações de trabalho, direitos trabalhistas, acidentes, previdência social.</p>
+            </article>
+            <article>
+              <h3>Direito Administrativo</h3>
+              <p>Atos administrativos, licitações, responsabilidade do Estado, controle administrativo e judicial.</p>
+            </article>
+            <article>
+              <h3>Direito Constitucional</h3>
+              <p>Organização do Estado, garantias fundamentais, controle de constitucionalidade.</p>
+            </article>
+            <article>
+              <h3>Direito Empresarial / Comercial</h3>
+              <p>Sociedades, falência, contratos empresariais, propriedade intelectual aplicada a negócios.</p>
+            </article>
+            <article>
+              <h3>Direito Tributário</h3>
+              <p>Tributos, competências tributárias, contencioso administrativo fiscal e judicial.</p>
+            </article>
+            <article>
+              <h3>Direito Internacional</h3>
+              <p>Relações entre Estados, tratados, arbitragem e conflitos de leis no tempo e no espaço.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- Processo -->
+        <section id="processo" class="card">
+          <h2>3. Processo & Procedimentos</h2>
+          <p>Visão geral dos procedimentos judiciais e fases processuais (visão genérica, aplicável à maioria dos sistemas de civil law, com grifos para o Judiciário brasileiro).</p>
+
+          <h4>Fases do processo civil (modelo genérico)</h4>
+          <ol>
+            <li><strong>Petição inicial</strong> — autor expõe pedidos e fundamentos.</li>
+            <li><strong>Citação</strong> — ato formal que chama o réu para se defender.</li>
+            <li><strong>Contestação</strong> — defesa do réu; exceções e impugnações.</li>
+            <li><strong>Réplica</strong> — manifestação do autor sobre a defesa.</li>
+            <li><strong>Fase probatória</strong> — produção de provas: documentos, testemunhas, perícias.</li>
+            <li><strong>Sentença</strong> — decisão de primeira instância.</li>
+            <li><strong>Recursos</strong> — apelação, agravo, recursos especiais/extraordinários (depende do sistema).</li>
+            <li><strong>Execução</strong> — cumprimento forçado da obrigação reconhecida.</li>
+          </ol>
+
+          <h4>Principais atos processuais</h4>
+          <ul>
+            <li>Petição inicial e seus requisitos.</li>
+            <li>Impugnações: exceção, reconvenção, impugnação ao cumprimento de sentença.</li>
+            <li>Provas: cadeia documental, oitiva de testemunhas, perícia técnica.</li>
+          </ul>
+
+          <h4>No processo penal (resumo)</h4>
+          <p>Inquérito policial, denúncia/queixa, pronúncia (em crimes de competência do júri), audiência de instrução, sentença e recursos. Garantias processuais: presunção de inocência, direito à ampla defesa e ao contraditório.</p>
+        </section>
+
+        <!-- Ética -->
+        <section id="etica" class="card">
+          <h2>4. Ética, Deontologia e Responsabilidade profissional</h2>
+          <p>O exercício da advocacia exige padrões éticos (sigilo profissional, impedimentos, conflito de interesses, publicidade e captação).</p>
+
+          <h4>Princípios essenciais</h4>
+          <ul>
+            <li><strong>Sigilo profissional</strong> — cliente/advogado: dever absoluto salvo exceções legais.</li>
+            <li><strong>Independência</strong> — defesa técnica sem subordinação indevida.</li>
+            <li><strong>Zelo e competência</strong> — atualização e diligência.</li>
+            <li><strong>Conflito de interesses</strong> — recusa/impedimento quando há interesse oposto.</li>
+          </ul>
+
+          <h4>Publicidade e marketing</h4>
+          <p>Regras profissionais limitam a publicidade agressiva. Comunicação deve ser discreta, informativa e não capciosa (varia por ordem/entidade reguladora).</p>
+
+          <h4>Sanções disciplinares</h4>
+          <p>Advertência, censura, suspensão e exclusão da ordem (dependendo do estatuto profissional/órgão de classe).</p>
+        </section>
+
+        <!-- Carreira -->
+        <section id="carreira" class="card">
+          <h2>5. Carreira: formação e caminhos profissionais</h2>
+          <p>Trajetórias possíveis após a graduação em Direito:</p>
+          <ul>
+            <li>Advogado autônomo / sócio de escritório</li>
+            <li>Juiz, promotor, defensor público (concursos públicos)</li>
+            <li>Consultoria jurídica em empresas (in-house)</li>
+            <li>Compliance e consultoria em governança</li>
+            <li>Carreira acadêmica e pesquisa</li>
+            <li>Arbitragem e mediação</li>
+          </ul>
+
+          <h4>Passos práticos para advogar (Brasil — panorama)</h4>
+          <ol>
+            <li>Concluir o curso de Direito (bacharelado).</li>
+            <li>Realizar estágio(s) supervisionados — adquirir prática.</li>
+            <li>Prestar exame de ordem (OAB) ou requisito equivalente.</li>
+            <li>Registrar-se na Ordem/Entidade e cumprir obrigações (anuidade, ética).</li>
+            <li>Continuar a formação: especializações, mestrado, cursos práticos.</li>
+          </ol>
+        </section>
+
+        <!-- Modelos -->
+        <section id="modelos" class="card">
+          <h2>6. Modelos práticos (exemplos básicos)</h2>
+          <p>Modelos comuns: petição inicial civil simplificada, contestação, recurso de apelação simplificado e contrato de prestação de serviços jurídicos (contrato de honorários).</p>
+
+          <h4>Modelo: Petição Inicial (civil) — esquema reduzido</h4>
+          <pre class="code-block">
+// EXEMPLO REDUZIDO - NÃO É PEÇA PRONTA PARA USO
+Excelentíssimo(a) Senhor(a) Doutor(a) Juiz(a) de Direito da ___ Vara Cível da Comarca de ___
+
+[Nome], [qualificação], por seu advogado [nome, OAB n.º], com escritório à [endereço], vem propor
+AÇÃO DE [nome da ação] em face de [réu], pelos fatos e fundamentos a seguir:
+
+1) Dos fatos: (descrever)
+2) Do direito: (fundamentar com artigos e precedentes)
+3) Dos pedidos:
+   a) Procedência do pedido;
+   b) Condenação ao pagamento de quantia X;
+   c) Citação do réu;
+   d) Produção de todas as provas em direito admitidas;
+   e) Condenação em custas e honorários.
+Termos em que pede deferimento. [Local, data]
+Advogado - OAB nº
+          </pre>
+
+          <h4>Contrato de Honorários (cláusulas essenciais)</h4>
+          <ul>
+            <li>Identificação das partes</li>
+            <li>Objeto (serviços a prestar)</li>
+            <li>Honorários (fixo, percentual, sucumbencial)</li>
+            <li>Forma de pagamento</li>
+            <li>Prazo e vigência</li>
+            <li>Cláusula de rescisão e foro</li>
+          </ul>
+          <p>Observação: sempre adequar ao caso concreto e à legislação aplicável; preferível advogado redigir e revisar.</p>
+        </section>
+
+        <!-- Glossário -->
+        <section id="glossario" class="card">
+          <h2>7. Glossário rápido</h2>
+          <dl>
+            <dt>Acórdão</dt><dd>Decisão colegiada proferida por tribunal.</dd>
+            <dt>Alvará</dt><dd>Autorização judicial para prática de ato.</dd>
+            <dt>Habeas corpus</dt><dd>Remédio constitucional para proteger liberdade de locomoção.</dd>
+            <dt>Recurso</dt><dd>Meio de impugnação das decisões judiciais.</dd>
+            <dt>Súmula vinculante</dt><dd>Enunciado com eficácia vinculante sobre interpretação constitucional (quando existente no ordenamento).</dd>
+          </dl>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="card">
+          <h2>8. Perguntas frequentes (FAQ)</h2>
+          <div class="accordion">
+            <button class="acc-item" aria-expanded="false">O que faz um advogado?</button>
+            <div class="acc-panel">
+              <p>Presta consultoria jurídica, elabora peças processuais, representa clientes em juízo, negocia acordos e presta serviços de compliance e prevenção de litígios.</p>
+            </div>
+
+            <button class="acc-item" aria-expanded="false">Quanto tempo demora a graduação em Direito?</button>
+            <div class="acc-panel"><p>Normalmente 5 anos (varia por país/instituição). Em seguida, atividades práticas e exames profissionais podem ser necessários.</p></div>
+
+            <button class="acc-item" aria-expanded="false">Como me atualizar como advogado?</button>
+            <div class="acc-panel"><p>Cursos de pós-graduação, especialização, participação em eventos, leitura de jurisprudência e doutrina, formação prática (estágio e mentoring).</p></div>
+          </div>
+        </section>
+
+        <!-- Rodapé do conteúdo -->
+        <footer class="card muted">
+          <p><strong>Observação importante:</strong> Este site é meramente educativo e não substitui a consulta a um profissional qualificado. Para orientações específicas, procure um advogado licenciado.</p>
+          <div class="copyright">© <span id="currentYear"></span> Advoca+ | Conteúdo aberto para uso educacional</div>
+        </footer>
+      </article>
+    </div>
+  </main>
+
+  <button id="toTop" class="to-top" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
